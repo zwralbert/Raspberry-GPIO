@@ -28,7 +28,7 @@ ser.open () #打开端口
 
 s = ser.read(10) #从端口读10个字节
 
-ser.write("hello") #向端口些数据
+ser.write("hello") #向端口写数据
 
 ser.close() #关闭端口
 
